@@ -1,0 +1,37 @@
+{
+  "name": "@huenei/eslint",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcomas/huenei-eslint.git"
+  },
+  "publishConfig": {
+    "@gcomas:registry": "//npm.pkg.github.com/:_authToken=npm_gd0lrwWMNbD5kWqe4ldEjv3FLNgotv2DXnSL2Q6Q"
+  },
+  "keywords": [
+    "linter",
+    "eslint",
+    "normalizer",
+    "huenei"
+  ],
+  "author": "gcomas (ga26390@hotmail.com)",
+  "license": "MIT",
+  "description": "Normalizes ESLint output to make it easier to diff",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-oxlint": "^0.15.2",
+    "eslint-plugin-promise": "^7.2.1",
+    "globals": "^15.14.0",
+    "standard": "^17.1.2",
+    "tsup": "^8.3.5",
+    "typescript-eslint": "^8.18.2"
+  }
+}
