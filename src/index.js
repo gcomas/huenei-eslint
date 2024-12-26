@@ -22,7 +22,7 @@ export default {
         'react/react-in-jsx-scope': 'off',
         'react/prop-types': 'off',
         'comma-dangle': ['error', 'always-multiline'],
-        'typescript-eslint/consistent-type-imports': 'error',
+        '@typescript-eslint/consistent-type-imports': 'error',
         'sort-imports': ['warn', {
             ignoreCase: false,
             ignoreDeclarationSort: false,
