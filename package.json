@@ -1,6 +1,6 @@
 {
   "name": "@gcomas/huenei-eslint",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -23,7 +23,7 @@
   "author": "gcomas (ga26390@hotmail.com)",
   "license": "MIT",
   "description": "Normalizes ESLint output to make it easier to diff",
-  "devDependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2",
     "eslint": "^9.17.0",
