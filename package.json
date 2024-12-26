@@ -12,7 +12,7 @@
     "url": "git+https://github.com/gcomas/huenei-eslint.git"
   },
   "publishConfig": {
-    "@gcomas:registry": "//npm.pkg.github.com/:_authToken=npm_gd0lrwWMNbD5kWqe4ldEjv3FLNgotv2DXnSL2Q6Q"
+    "access": "public"
   },
   "keywords": [
     "linter",
