@@ -68,7 +68,7 @@ Add a script to your **package.json**:
 }
 ```
 
-Then run:
+Then run
 
 ```json
 npm run lint
