@@ -17,6 +17,7 @@ export default {
     plugins: [pluginJs.configs.recommended,
         ...tseslint.configs.recommended,
         ...compat.extends(semistandard.extends)],
+        
     rules: {
         indent: ['warn', 4],
         'react/react-in-jsx-scope': 'off',
