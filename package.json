@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsup",
-    "postinstall": "node dist/scripts/postinstall.js"
+    "postinstall": "node --loader ts-node/esm dist/scripts/postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,8 @@
     "typescript-eslint": "^8.18.2"
   },
   "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
     "tsup": "^8.3.5"
   }
 }
