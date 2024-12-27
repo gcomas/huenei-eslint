@@ -18,10 +18,10 @@ npm install eslint --save-dev
 ```
 
 ## Install the shared ESLint configuration package
- Replace **config-package** with the name of the shared configuration you want to use (e.g: my-project/eslint-config).
+ Add the following packages that are neccesary to make the configuration work.
 
 ```bash
- npx install-peerdeps <config-package> --dev
+ npm install @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-semistandard eslint-plugin-n eslint-plugin-oxlint eslint-plugin-promise globals standard typescript
 ```
 
 ---
