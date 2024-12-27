@@ -1,12 +1,12 @@
 {
   "name": "@gcomas/huenei-eslint",
-  "version": "0.0.15",
+  "version": "0.0.17",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsup",
-    "postinstall": "npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-semistandard eslint-plugin-n eslint-plugin-oxlint eslint-plugin-promise globals standard typescript typescript-eslint"
+    "postinstall": "node dist/scripts/postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "author": "gcomas (ga26390@hotmail.com)",
   "license": "MIT",
   "description": "Normalizes ESLint output to make it easier to diff",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2",
     "eslint": "^9.17.0",
@@ -37,7 +37,10 @@
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.2"
   },
-  "dependencies": {
+  "devDependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "chalk-animation": "^2.0.3",
     "tsup": "^8.3.5"
   }
 }
