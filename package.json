@@ -5,7 +5,8 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "postinstall": "npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-semistandard eslint-plugin-n eslint-plugin-oxlint eslint-plugin-promise globals standard typescript typescript-eslint"
   },
   "repository": {
     "type": "git",
@@ -23,18 +24,20 @@
   "author": "gcomas (ga26390@hotmail.com)",
   "license": "MIT",
   "description": "Normalizes ESLint output to make it easier to diff",
-  "peerDependencies": {
+  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2",
     "eslint": "^9.17.0",
     "eslint-config-semistandard": "^17.0.0",
-    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-n": "^17.15.1",
     "eslint-plugin-oxlint": "^0.15.2",
     "eslint-plugin-promise": "^7.2.1",
     "globals": "^15.14.0",
     "standard": "^17.1.2",
-    "tsup": "^8.3.5",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.2"
+  },
+  "dependencies": {
+    "tsup": "^8.3.5"
   }
 }
