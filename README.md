@@ -1,5 +1,9 @@
 # Extend ESLint Configuration
 
+```bash
+npm install @gcomas/huenei-eslint
+```
+
 This guide explains how to extend an existing ESLint configuration in your project. By extending a shared or base configuration, you can standardize linting rules across multiple projects while still allowing for customizations.
 
 ## Prerequisites
