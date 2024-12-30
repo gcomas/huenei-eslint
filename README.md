@@ -1,10 +1,22 @@
+
+
+<div align="center">
+
+![Logo](https://i.postimg.cc/sgH6RJ39/logo-eslint.jpg)
+
 # Extend ESLint Configuration
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Version](https://img.shields.io/github/package-json/v/gcomas/huenei-eslint.svg)](https://github.com/gcomas/huenei-eslint) [![npm](https://img.shields.io/badge/npm-v10.8.2-green.svg)](https://www.npmjs.com/)
+
+This guide explains how to extend an existing ESLint configuration in your project. By extending a shared or base configuration, you can standardize linting rules across multiple projects while still allowing for customizations.
+
+</div>
+
+## Installation
 
 ```bash
 npm install @gcomas/huenei-eslint
 ```
-
-This guide explains how to extend an existing ESLint configuration in your project. By extending a shared or base configuration, you can standardize linting rules across multiple projects while still allowing for customizations.
 
 ## Prerequisites
 
@@ -74,7 +86,7 @@ Add a script to your **package.json**:
 
 Then run
 
-```json
+```bash
 npm run lint
 ```
 
