@@ -24,20 +24,9 @@ Ensure you have the following installed:
 
 - **Node.js**: Version 14 or later.
 - **npm** or **yarn**: For managing dependencies.
-- **ESLint**: Installed globally or locally in your project.
-
-## Installation
-
-1. **Install ESLint** (if not already installed):
+- **ESLint**: Install locally in your project:
 ```bash
 npm install eslint --save-dev
-```
-
-## Install the shared ESLint configuration package
- Add the following packages that are neccesary to make the configuration work.
-
-```bash
- npm install @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-semistandard eslint-plugin-n eslint-plugin-oxlint eslint-plugin-promise globals standard typescript
 ```
 
 ---
