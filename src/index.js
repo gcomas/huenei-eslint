@@ -14,10 +14,11 @@ const compat = new FlatCompat({
 
 /** @type {{ plugins?: import('eslint').Linter.Config.plugins, rules?: import('eslint').Linter.Config.rules }} */
 export default {
-    plugins: [pluginJs.configs.recommended,
+    plugins: [
+        pluginJs.configs.recommended,
         ...tseslint.configs.recommended,
-        ...compat.extends(semistandard.extends)],
-        
+        ...compat.extends(semistandard.extends),
+    ],
     rules: {
         indent: ['warn', 4],
         'react/react-in-jsx-scope': 'off',
